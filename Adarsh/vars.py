@@ -38,5 +38,5 @@ class Var(object):
     UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', ''))
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "")).split()))
     SHORTLINK_URL = getenv('SHORTLINK_URL', 'tnshort.net')
-    SHORTLINK_API = getenv('SHORTLINK_API', '0c8ebd63bfe9f67f9970b8767498ff60316b9b03')
+    SHORTLINK_API = getenv('SHORTLINK_API', '0e8a86b9c1c70a8ee2593d491983f077446b9695')
     TUTORIAL_URL = getenv('TUTORIAL_URL', 'https://t.me/Demoshorts/19')    
