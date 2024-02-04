@@ -17,12 +17,12 @@ async def maintainers(b,m):
     except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="ɪ  ᴀᴍ  ᴍᴀɪɴᴛᴀɪɴᴇᴅ  ʙʏ  [ɴᴏʙɪᴛᴀ](https://telegram.me/NobiDeveloper)",
+                    text="ɪ  ᴀᴍ  ᴍᴀɪɴᴛᴀɪɴᴇᴅ  ʙʏ  [Team_MDL](https://telegram.me/Team_MDL_admin_bot)",
                     
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ   💻", url=f"https://telegram.me/NobiDeveloperr")
+                                InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ   💻", url=f"https://telegram.me/Team_MDL_admin_bot")
                             ]
                         ]
                     ),
@@ -42,7 +42,7 @@ async def follow_user(b,m):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("FOLLOW ME", url=f"https://telegram.me/MovieVillaYT")
+                                InlineKeyboardButton("FOLLOW ME", url=f"https://telegram.me/Team_MDL")
                             ]
                         ]
                     ),
